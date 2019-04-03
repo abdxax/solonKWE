@@ -1,0 +1,293 @@
+<?php
+require "db.php";
+?>
+<!DOCTYPE HTML>
+<html class="supernova">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta property="og:title" content="Hairdressers Appointment Request Form" >
+
+<meta property="og:url" content="https://form.jotform.me/90605060857457" >
+
+<meta property="og:description" content="Please click the link to complete this form.">
+
+<link rel="canonical" href="https://form.jotform.me/90605060857457" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+<meta name="HandheldFriendly" content="true" />
+
+<title>Payment Page ...</title>
+
+<link href="../css/c4.css" rel="stylesheet" type="text/css" />
+
+<link type="text/css" rel="stylesheet" href="../css/c3.css" />
+
+<link type="text/css" media="print" rel="stylesheet" href="../css/c2.css" />
+
+<link type="text/css" rel="stylesheet" href="../css/c1.css">
+
+<link rel="stylesheet" href="../css/css.css">
+
+<style type="text/css">
+
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    body, html{
+        margin:0;
+        padding:0;
+        background:rgba(204, 204, 204, 0);
+    }
+
+    .form-all{
+        margin:0px auto;
+        padding-top:0px;
+        width:650px;
+        color:rgb(255, 255, 255) !important;
+        font-family:'Roboto';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: false;
+    }
+    
+    .text-block2 {
+  position: relative;
+  bottom: 5px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.75); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 70%;
+  padding: 10px;
+  Font-style : italic ;
+  Font-size : large ; 
+  top : 5px;
+  
+}
+
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+.form-label.form-label-auto {
+        
+      display: inline-block;
+      float: left;
+      text-align: left;
+    
+      }
+    /* Injected CSS Code */
+    .bg-img {
+  /* The image used */
+  background-image: url("../pic/file.gif");
+
+  min-height: 550px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+</style>
+
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.10237" type="text/javascript"></script>
+<script type="text/javascript">
+	JotForm.init(function(){
+      setTimeout(function() {
+          $('input_23').hint('ex: myname@example.com');
+       }, 20);
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("16", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("16", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+      JotForm.highlightInputs = false;
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,null,null,null,null,null,null,{"name":"serviceRequired8","qid":"8","text":"Service required","type":"control_dropdown"},{"name":"stylistPreferred","qid":"9","text":"Stylist preferred","type":"control_dropdown"},null,null,null,null,{"name":"name14","qid":"14","text":"Request an Appointment","type":"control_button"},{"name":"preferedMethod15","qid":"15","text":"Prefered method of contact?","type":"control_radio"},{"name":"date16","qid":"16","text":"Date","type":"control_datetime"},{"name":"time","qid":"17","text":"Time","type":"control_dropdown"},null,{"name":"otherDetails","qid":"19","text":"Other details you may wish to highlight","type":"control_textarea"},{"name":"addMe20","qid":"20","text":"Add me to your mail list","type":"control_checkbox"},{"name":"clickTo","qid":"21","text":"Hairdressers Service","type":"control_head"},{"name":"fullName22","qid":"22","text":"Full Name","type":"control_fullname"},{"name":"email23","qid":"23","text":"E-mail","type":"control_email"},{"name":"phoneNumber24","qid":"24","text":"Phone Number","type":"control_phone"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,{"name":"serviceRequired8","qid":"8","text":"Service required","type":"control_dropdown"},{"name":"stylistPreferred","qid":"9","text":"Stylist preferred","type":"control_dropdown"},null,null,null,null,{"name":"name14","qid":"14","text":"Request an Appointment","type":"control_button"},{"name":"preferedMethod15","qid":"15","text":"Prefered method of contact?","type":"control_radio"},{"name":"date16","qid":"16","text":"Date","type":"control_datetime"},{"name":"time","qid":"17","text":"Time","type":"control_dropdown"},null,{"name":"otherDetails","qid":"19","text":"Other details you may wish to highlight","type":"control_textarea"},{"name":"addMe20","qid":"20","text":"Add me to your mail list","type":"control_checkbox"},{"name":"clickTo","qid":"21","text":"Hairdressers Service","type":"control_head"},{"name":"fullName22","qid":"22","text":"Full Name","type":"control_fullname"},{"name":"email23","qid":"23","text":"E-mail","type":"control_email"},{"name":"phoneNumber24","qid":"24","text":"Phone Number","type":"control_phone"}]);}, 20); 
+</script>
+</head>
+
+<body>
+<div class="header">
+
+<a href="#default" class="logo"><img src="../pic/logo.png"></a>
+ 
+  <div class="header-right">
+    <a class="active" href="test1.html">HOME</a>
+    <a href="book.html">BOOK</a>
+    <a href="About.html">About Us</a>
+  </div>
+  
+</div>
+<div class="bg-img">
+<center>
+ <div class="text-block2">
+ 
+<form class="jotform-form"  action="file:///Users/mo0onz/Desktop/Salon%202/HTML/thank.html" method="post" name="form_90605060857457" 
+id="90605060857457" accept-charset="utf-8">
+
+  <input type="hidden" name="formID" value="90605060857457" />
+  <div class="form-all">
+  
+    <ul class="form-section page-section">
+      <li id="cid_21" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group ">
+          <div class="header-text httal htvam">
+            <h1 id="header_21" class="form-header" data-component="header">
+              Payment ...
+            </h1>
+          </div>
+        </div>
+      </li>
+      
+      <li class="form-line jf-required" data-type="control_fullname" id="id_22">
+        <label class="form-label form-label-left form-label-auto" id="label_22" for="first_22">
+          Full Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_22" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="first_22" name="q22_fullName22[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" required="" />
+              <label class="form-sub-label" for="first_22" id="sublabel_first" style="min-height:13px"> First Name </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="last_22" name="q22_fullName22[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" required="" />
+              <label class="form-sub-label" for="last_22" id="sublabel_last" style="min-height:13px"> Last Name </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      
+      <li class="form-line jf-required" data-type="control_email" id="id_23">
+        <label class="form-label form-label-left form-label-auto" id="label_23" for="input_23">
+          E-mail
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_23" class="form-input jf-required">
+          <input type="email" id="input_23" name="q23_email23" class="form-textbox validate[required, Email]" size="30" value="" placeholder="ex: myname@example.com" data-component="email" required="" />
+        </div>
+      </li>
+      
+      <li class="form-line jf-required" data-type="control_fullname" id="id_22">
+        <label class="form-label form-label-left form-label-auto" id="label_22" for="first_22">
+          Address
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_22" class="form-input jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="first_22" name="q22_fullName22[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" required="" />
+              <label class="form-sub-label" for="first_22" id="sublabel_first" style="min-height:13px"> City </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="last_22" name="q22_fullName22[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" required="" />
+              <label class="form-sub-label" for="last_22" id="sublabel_last" style="min-height:13px"> State </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      
+      <li class="form-line jf-required" data-type="control_fullname" id="id_22">
+        <label class="form-label form-label-left form-label-auto" id="label_22" for="first_22">
+          Accepted Card
+          <span class="form-required">
+            *
+          </span>
+        </label> 
+        <img src="../pic/visa.png" alt="Salon" style=" height: 40px;" >
+        
+        <div id="cid_22" class="form-input jf-required">
+          <div data-wrapper-react="true">
+          
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="first_22" name="q22_fullName22[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" required="" />
+              <label class="form-sub-label" for="first_22" id="sublabel_first" style="min-height:13px"> Name On Card </label>
+            </span>
+            
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="last_22" name="q22_fullName22[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" required="" />
+              <label class="form-sub-label" for="last_22" id="sublabel_last" style="min-height:13px"> Credit card number </label>
+            </span>
+            
+                        <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="text" id="last_22" name="q22_fullName22[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" required="" />
+              <label class="form-sub-label" for="last_22" id="sublabel_last" style="min-height:13px"> Exp Month </label>
+            </span>
+            
+          </div>
+        </div>
+      </li>           
+        
+      <li class="form-line" data-type="control_button" id="id_14">
+        <div id=as"cid_14" class="form-input-wide">
+          <div style="text-align:center" class="form-buttons-wrapper">
+            <input id="input_14" type="submit" class="form-submit-button" data-component="button" name="sub" value=" Request an Appointment">
+            <!--<button id="input_14" type="submit" class="form-submit-button" data-component="button">
+             Request an Appointment   
+            </button>-->
+          </div>
+        </div>
+      </li>
+      
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+      
+    </ul>
+  </div>
+  
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="90605060857457" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "90605060857457-90605060857457";
+  </script>
+  <div class="formFooter-heightMask">
+  </div>
+
+</form>
+</div>
+</center>
+</div>
+<div class="footer">
+                        <div>
+                            <span>Copyright &copy; 2019 Albandari </span>
+                            <ul>
+                                <li><img src="../pic/online_social_media_facebook-128.png" alt="facebook logo"></li>
+                                <li><img src="../pic/online_social_media_tumblr-128.png" alt="tumblr logo"></li>
+                                <li><img src="../pic/snap.png" alt="snap logo"></li>
+                                <li><img src="../pic/twitter_online_social_media-128.png" alt="twitter logo"></li>
+                            </ul>
+                        </div>
+                    </div>
+</body>
+</html>
+<script type="text/javascript">JotForm.ownerView=true;</script>

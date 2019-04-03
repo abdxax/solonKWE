@@ -1,0 +1,60 @@
+aside ul{
+	list-style-type: none;
+	padding: 20px;
+	margin: 20px;
+}
+aside ul li{
+	padding: 50px;
+	/*border: 1px solid black;*/
+}
+.btn{
+	margin: 5px;
+}
+.logo-login{
+	display: block;
+	margin-right:  auto;
+	margin-left: auto;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+body {font-family: "Lato", sans-serif;}
+.bg-img {
+  /* The image used */
+  background-image: url("../2bgsalon.jpg");
+
+  min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bgg-img {
+  /* The image used */
+  background-image: url("../file.gif");
+
+  min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-block3 {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 95%;
+  padding: 10px;
+  Font-style : italic ;
+  Font-size : large ; 
+  text-align: left;
+  margin-top: 10px;
+  left: 50px;
+  top : 10px;
+}
